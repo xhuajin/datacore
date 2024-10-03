@@ -216,7 +216,7 @@ export function useDatacorePaging({
                 });
             }
 
-            rawSetPage(page);
+            rawSetPage(newPage);
         },
         [page, container, shouldScroll, rawSetPage]
     );
